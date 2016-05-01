@@ -1,0 +1,33 @@
+/* flex item -- use inside .df flex container */
+.flx-i {
+  flex: 1;
+}
+
+/* center flx-i vertically */
+.flx-aic {
+  align-items: center;
+}
+
+/* center flx-i horizontally */
+.flx-jcc {
+  justify-content: center;
+}
+
+/* reverse flex row direction */
+.flx-drr {
+  flex-direction: row-reverse;
+}
+
+/* return flex row direction to default on desktop */
+@media screen and (min-width: 48em) {
+  
+  /* creates a flex container */
+  .df {
+    display: flex;
+  }
+
+  .flx-i[class^='w-'],.flx-i[class*=' w-']{
+    flex: none;
+  }
+}
+
