@@ -33,6 +33,8 @@ a:active {
   color: #007BE6;
 }
 
+.white { color: #fff !important; }
+
 .hero {
   background-image: url("../images/hero-small.jpg");
   background-position: center;
