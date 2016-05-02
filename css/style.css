@@ -812,7 +812,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .moon-gray { color: #ccc; }
 .light-gray { color: #eee; }
 .near-white { color: #f4f4f4; }
-.white { color: #fff !important; }
+.white { color: #fff; }
 /* Background colors */
 .bg-black { background-color: #000; }
 .bg-near-black { background-color: #111; }
@@ -2110,6 +2110,8 @@ a:active {
   transition: color .3s;
   color: #007BE6;
 }
+
+.white { color: #fff !important; }
 
 .hero {
   background-image: url("../images/hero-small.jpg");
