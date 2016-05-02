@@ -82,7 +82,7 @@ a:active {
 }
 /* position dots up a bit */
 .flickity-page-dots {
-  bottom: -15px;
+  bottom: 10px;
 }
 
 /* dots are lines */
