@@ -812,7 +812,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .moon-gray { color: #ccc; }
 .light-gray { color: #eee; }
 .near-white { color: #f4f4f4; }
-.white { color: #fff; }
+.white { color: #fff !important; }
 /* Background colors */
 .bg-black { background-color: #000; }
 .bg-near-black { background-color: #111; }
