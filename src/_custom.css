@@ -33,7 +33,9 @@ a:active {
   color: #007BE6;
 }
 
-.white { color: #fff !important; }
+.white {
+  color: #fff !important;
+}
 
 .hero {
   background-image: url("../images/hero-small.jpg");
@@ -42,7 +44,7 @@ a:active {
   background-size: cover;
   position: relative;
   z-index: 0;
-  text-shadow: 1px 2px var(--ecovative) 69;
+  text-shadow: 1px 2px var(--ecovative)69;
 }
 
 .hero:after {
@@ -80,6 +82,7 @@ a:active {
 .carousel-cell > p {
   background-color: #fafafa;
 }
+
 /* position dots up a bit */
 .flickity-page-dots {
   bottom: 10px;
@@ -91,5 +94,5 @@ a:active {
   width: 20px;
   margin: 0;
   border-radius: 0;
-  margin-right:5px;
+  margin-right: 5px;
 }
