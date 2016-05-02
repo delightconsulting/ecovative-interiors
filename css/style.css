@@ -2157,7 +2157,7 @@ a:active {
 }
 
 .carousel-cell > img {
-  max-height: 100%;
+  max-width: none;
   width: 100%;
 }
 
