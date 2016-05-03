@@ -96,3 +96,10 @@ a:active {
   border-radius: 0;
   margin-right: 5px;
 }
+
+/* On Mobile move prev/next buttons up on the wall tiles section*/
+@media screen and (max-width: 48em) {
+  .carousel-wall-tiles .flickity-prev-next-button {
+    top: 40%;
+  }
+}
