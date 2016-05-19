@@ -2170,14 +2170,14 @@ a:active {
   bottom: 10px;
 }
 
-/* dots are lines */
-.flickity-page-dots .dot {
+/* dots are rectagular dashes */
+/*.flickity-page-dots .dot {
   height: 4px;
   width: 20px;
   margin: 0;
   border-radius: 0;
   margin-right: 5px;
-}
+}*/
 
 /* On Mobile move prev/next buttons up on the wall tiles section*/
 @media screen and (max-width: 48em) {
