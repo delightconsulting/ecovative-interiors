@@ -2106,13 +2106,13 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: #7FDBFF;
+  color: #007BE6;
 }
 
 a:active {
   -webkit-transition: color .3s;
   transition: color .3s;
-  color: #007BE6;
+  color: #265C83;
 }
 
 .white {
